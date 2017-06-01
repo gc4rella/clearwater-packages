@@ -1,0 +1,28 @@
+clearwater_role="vellum"
+
+install_packages="curl screen python-virtualenv"
+log="/var/log/openbaton_vellum_install.log"
+
+clearwater_apt_file="/etc/apt/sources.list.d/clearwater.list"
+clearwater_apt_repo="deb http://repo.cw-ngv.com/stable binary/"
+clearwater_key_repo="http://repo.cw-ngv.com/repo_key"
+clearwater_conf_dir="/etc/clearwater"
+clearwater_conf_file="local_config"
+
+clearwater_net="mgmt"
+relation_bucket=".variables"
+
+private="_private"
+public="_public"
+floating="_floatingIp"
+binding="_"
+
+tmp_var="/tmp/tmp.txt"
+virtual_env="/opt/clearwater_virtual_environment"
+
+# For the tutorial from github  ( precise ) set the value to true
+# If you use the tutorial from the official website ( trusty ) set this value to false
+# Actually vellum was only used together with dime instead of homestead + ralf
+
+# check the tutorials if you are unsure
+install_memento_cassandra="true"

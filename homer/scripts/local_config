@@ -1,0 +1,4 @@
+local_ip=
+public_ip=
+public_hostname=
+etcd_cluster=""

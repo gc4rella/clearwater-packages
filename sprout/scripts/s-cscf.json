@@ -1,0 +1,9 @@
+{
+   "s-cscfs" : [
+       {   "server" : "sip:scscf.sprout.VAR_DNS_REALM;transport=tcp",
+           "priority" : 0,
+           "weight" : 100,
+           "capabilities" : []
+       }
+   ]
+}

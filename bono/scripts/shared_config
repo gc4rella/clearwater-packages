@@ -1,0 +1,43 @@
+# Deployment definitions
+home_domain=VAR_DNS_REALM
+sprout_hostname=sprout.VAR_DNS_REALM
+sprout_registration_store=vellum.VAR_DNS_REALM
+hs_hostname=hs.VAR_DNS_REALM:8888
+hs_provisioning_hostname=hs.VAR_DNS_REALM:8889
+ralf_hostname=ralf.VAR_DNS_REALM:10888
+ralf_session_store=vellum.VAR_DNS_REALM
+xdms_hostname=homer.VAR_DNS_REALM:7888
+chronos_hostname=vellum.VAR_DNS_REALM
+cassandra_hostname=vellum.VAR_DNS_REALM
+
+# Email server configuration
+#smtp_smarthost=<smtp server>
+#smtp_username=<username>
+#smtp_password=<password>
+#email_recovery_sender=clearwater@example.org
+
+# Keys
+signup_key=openbaton
+turn_workaround=openbaton
+ellis_api_key=openbaton
+ellis_cookie_key=openbaton
+
+# I-CSCF/S-CSCF configuration
+icscf=5052
+icscf_prefix=icscf
+scscf=5054
+scscf_prefix=scscf
+scscf_uri=sip:scscf.sprout.VAR_DNS_REALM;transport=tcp
+
+
+# HSS configuration
+hss_hostname=fhoss.VAR_DNS_REALM
+hss_port=3868
+hss_realm=VAR_DNS_REALM
+
+# Additional domains
+#additional_home_domains=<domain 1>,<domain 2>,<domain 3>...
+
+# Application Servers
+gemini_enabled='Y'
+memento_enabled='Y'

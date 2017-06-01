@@ -1,0 +1,10 @@
+$TTL 5m ; Default TTL
+
+@                 3600 IN SOA  ns admin ( 2014010800 ; Serial
+                                          3600       ; Refresh
+                                          3600       ; Retry
+                                          3600       ; Expire
+                                          300 )      ; Minimum TTL
+@                 3600 IN NS   ns
+ns                3600 IN A    VAR_DNS_MGMT
+dns               3600 IN A    VAR_DNS_MGMT
