@@ -1,4 +1,8 @@
 name: homer
+description: Homer is a standard XDMS used to store MMTEL service settings documents for each user of the system. Documents are created, read, updated and deleted using a standard XCAP interface. As with Homestead, the Homer nodes use Vellum as the data store for all long lived data.
+provider: fokus
+shared: true
+nfvo_version: 3.2.0
 image:
     upload: false
     names:

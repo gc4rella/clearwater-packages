@@ -1,4 +1,8 @@
 name: vellum
+description: Vellum is used to maintain all long-lived state in the deployment. It does this by running a number of cloud optimized, distributed storage clusters.
+provider: fokus
+shared: true
+nfvo_version: 3.2.0
 image:
     upload: false
     names:

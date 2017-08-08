@@ -1,4 +1,8 @@
 name: sprout
+description: The Sprout nodes act as a horizontally scalable, combined SIP registrar and authoritative routing proxy, and handle client authentication and the ISC interface to application servers. The Sprout nodes also contain the in-built MMTEL application server. SIP transactions are load balanced across the Sprout cluster, so there is no long-lived association between a client and a particular Sprout node.
+provider: fokus
+shared: true
+nfvo_version: 3.2.0
 image:
     upload: false
     names:

@@ -1,4 +1,8 @@
 name: dime
+description: Dime nodes run Clearwaters Homestead and Ralf components.
+provider: fokus
+shared: true
+nfvo_version: 3.2.0
 image:
     upload: false
     names:

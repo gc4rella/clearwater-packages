@@ -1,8 +1,33 @@
 {  
-   "name":"clearwater-ims bind9 fhoss",
+   "name":"Clearwater IMS",
    "vendor":"fokus",
-   "version":"clearwater-ims",
-   "vnfd":[],
+   "version":"3.2.0",
+   "vnfd":[
+       {
+          "id":"fokus/cw-bind9/3.2.0"
+       },
+       {
+          "id":"fokus/cw-fhoss/3.2.0"
+       },
+       {
+          "id":"fokus/bono/3.2.0"
+       },
+       {
+          "id":"fokus/homer/3.2.0"
+       },
+       {
+          "id":"fokus/sprout/3.2.0"
+       },
+       {
+          "id":"fokus/vellum/3.2.0"
+       },
+       {
+          "id":"fokus/dime/3.2.0"
+       },
+       {
+          "id":"fokus/ellis/3.2.0"
+       }
+   ],
    "vld":[  
       {  
          "name":"mgmt"

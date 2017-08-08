@@ -1,4 +1,8 @@
 name: ellis
+description: Ellis is a sample provisioning portal providing self sign-up, password management, line management and control of MMTEL service settings. It is not intended to be a part of production Clearwater deployments (it is not easy to horizontally scale because of the MySQL underpinnings for one thing) but to make the system easy to use out of the box.
+provider: fokus
+shared: true
+nfvo_version: 3.2.0
 image:
     upload: false
     names:
