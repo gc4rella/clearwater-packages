@@ -29,7 +29,12 @@ dime-1                 IN A     VAR_DIME_MGMT
 hs                     IN A     VAR_DIME_MGMT
 ralf                   IN A     VAR_DIME_MGMT
 EOL
+#cat >> $REALMFILE <<EOL
+#dime-1                 IN A     VAR_DIME_MGMT
+#ralf                   IN A     VAR_DIME_MGMT
+#EOL
 fi
+
 
 # TODO : enable scaling 
 source $SCRIPTS_PATH/relation_joined.sh

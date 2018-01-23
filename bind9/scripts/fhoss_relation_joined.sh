@@ -24,9 +24,11 @@ fi
 
 # copy fhoss related information
 if [ -f "$REALMFILE" ] && [ -z "$(cat $REALMFILE | grep $foreign)" ];then
-	echo "fhoss                IN A     VAR_FHOSS_MGMT" >> $REALMFILE
-	echo "$fhoss_hostname      IN A     VAR_FHOSS_MGMT" >> $REALMFILE
-	echo "hss                  IN A     VAR_FHOSS_MGMT" >> $REALMFILE
+cat >> $REALMFILE <<EOL
+fhoss                IN A     VAR_FHOSS_MGMT
+$fhoss_hostname      IN A     VAR_FHOSS_MGMT
+hss                  IN A     VAR_FHOSS_MGMT
+EOL
 fi
 
 # TODO : enable scaling 

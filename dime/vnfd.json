@@ -1,7 +1,7 @@
       {  
          "name":"dime",
          "vendor":"fokus",
-         "version":"clearwater-ims",
+         "version":"5.1.0",
          "lifecycle_event":[  
             {  
                "event":"CONFIGURE",

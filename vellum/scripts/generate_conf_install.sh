@@ -165,6 +165,10 @@ done
 local_ip=$(cat $SCRIPTS_PATH/$relation_bucket | grep $clearwater_role | grep "private" | cut -d "=" -f2 | cut -d "\"" -f2)
 public_ip=$(cat $SCRIPTS_PATH/$relation_bucket | grep $clearwater_role | grep "public" | cut -d "=" -f2 | cut -d "\"" -f2)
 
+if [ -z "$public_ip" ];then
+	public_ip=$local_ip
+fi
+
 if [ -z "$hostname" ];then
 	hostname=$(hostname)
 fi

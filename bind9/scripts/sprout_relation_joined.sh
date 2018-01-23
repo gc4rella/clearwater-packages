@@ -35,6 +35,8 @@ _sip._tcp.scscf.sprout IN SRV   0 0 5054 sprout-1
 icscf.sprout           IN A     VAR_SPROUT_MGMT
 icscf.sprout           IN NAPTR 1 1 "S" "SIP+D2T" "" _sip._tcp.icscf.sprout
 _sip._tcp.icscf.sprout IN SRV   0 0 5052 sprout-1
+_sip._tcp.bgcf.sprout  IN SRV   0 0 5052 sprout-1
+
 EOL
 fi
 

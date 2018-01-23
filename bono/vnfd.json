@@ -1,7 +1,7 @@
       {  
          "name":"bono",
          "vendor":"fokus",
-         "version":"clearwater-ims",
+         "version":"5.1.0",
          "lifecycle_event":[  
             {  
                "event":"CONFIGURE",
@@ -24,6 +24,7 @@
                "event":"START",
                "lifecycle_events":[
 			"generate_conf_install.sh",
+			"wait_stable_cluster.sh",
 			"upload_shared_conf.sh"
                ]
             }

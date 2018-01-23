@@ -1,4 +1,6 @@
-name: cw_bind9
+name: cw-bind9
+provider: fokus
+nfvo_version: 5.1.0
 image:
     upload: false
     names:

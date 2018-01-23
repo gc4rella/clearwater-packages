@@ -3,7 +3,8 @@ home_domain=VAR_DNS_REALM
 sprout_hostname=sprout.VAR_DNS_REALM
 sprout_registration_store=vellum.VAR_DNS_REALM
 hs_hostname=hs.VAR_DNS_REALM:8888
-hs_provisioning_hostname=hs.VAR_DNS_REALM:8889
+#hs_provisioning_hostname=hs.VAR_DNS_REALM:8889
+homestead_impu_store=vellum.VAR_DNS_REALM
 ralf_hostname=ralf.VAR_DNS_REALM:10888
 ralf_session_store=vellum.VAR_DNS_REALM
 xdms_hostname=homer.VAR_DNS_REALM:7888
@@ -39,5 +40,9 @@ hss_realm=VAR_DNS_REALM
 #additional_home_domains=<domain 1>,<domain 2>,<domain 3>...
 
 # Application Servers
-gemini_enabled='Y'
-memento_enabled='Y'
+#gemini_enabled='Y'
+#memento_enabled='Y'
+
+gemini=5054
+memento=5054
+memento_auth_store=vellum.example.com
